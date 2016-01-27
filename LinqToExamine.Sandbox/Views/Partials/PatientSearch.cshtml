@@ -1,0 +1,15 @@
+﻿@inherits WebViewPage<LinqToExamine.Sandbox.Models.PatientListSearchModel>
+
+
+<div class="col-md-12">
+    @using (Html.BeginUmbracoForm("Search", "PatientsLinq"))
+    {
+        <span>@Html.TextBoxFor(Model => Model.Query, new { placeholder = "Query" })</span>
+        <span>@Html.TextBoxFor(Model => Model.DOBFrom, new { placeholder = "From", type = "date" })</span>
+        <span>@Html.TextBoxFor(Model => Model.DOBTo, new { placeholder = "To", type = "date" })</span>
+        <span>UK Citizen Only?:</span>
+        <span>@Html.CheckBoxFor(Model => Model.UKCitizenOnly)</span>
+        <span><input type="submit" value="Search" /></span>
+    }
+    
+</div>
