@@ -38,11 +38,6 @@
     {
         indexQuery = indexQuery.Where(p => p.IsUKCitizen == true);
     }
-    /**
-    else
-    {
-        indexQuery = indexQuery.Where(p => (p.IsUKCitizen == true).Boost(20) || p.IsUKCitizen != true);
-    }
     **/
     #endregion
 

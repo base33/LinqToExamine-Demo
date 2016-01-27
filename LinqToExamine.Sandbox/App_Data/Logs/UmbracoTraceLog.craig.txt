@@ -2849,3 +2849,99 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2016-01-27 23:28:56,139 [P44072/D5/T25] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-26 23:28:56
  2016-01-27 23:29:04,720 [P44072/D5/T82] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
  2016-01-27 23:29:40,329 [P44072/D5/T51] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:50:17,534 [P21508/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.5 application starting on CRAIG
+ 2016-01-27 23:50:17,549 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-27 23:50:17,554 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
+ 2016-01-27 23:50:17,610 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-27 23:50:17,738 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 128ms)
+ 2016-01-27 23:50:17,745 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-27 23:50:17,747 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-01-27 23:50:17,747 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-27 23:50:17,749 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2016-01-27 23:50:17,756 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-27 23:50:17,759 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2016-01-27 23:50:17,759 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-27 23:50:17,761 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-01-27 23:50:17,777 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-27 23:50:17,779 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-01-27 23:50:17,779 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-27 23:50:17,781 [P21508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2016-01-27 23:50:18,079 [P21508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-27 23:50:18,189 [P21508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-27 23:50:18,206 [P21508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-27 23:50:18,226 [P21508/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-27 23:50:18,233 [P21508/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-27 23:50:18,274 [P21508/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-27 23:50:18,278 [P21508/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 777ms)
+ 2016-01-27 23:50:18,509 [P21508/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:3159/umbraco (UmbracoModule request)
+ 2016-01-27 23:50:18,601 [P21508/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-01-27 23:50:18,621 [P21508/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-27 23:50:18,727 [P21508/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-27 23:50:18,730 [P21508/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-01-27 23:50:19,035 [P21508/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-27 23:50:19,042 [P21508/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 7ms)
+ 2016-01-27 23:50:23,929 [P21508/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:50:36,174 [P21508/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:51:23,460 [P21508/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-26 23:51:23
+ 2016-01-27 23:52:19,702 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:52:19,743 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 41ms)
+ 2016-01-27 23:52:21,086 [P21508/D2/T15] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:52:21,193 [P21508/D2/T15] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 107ms)
+ 2016-01-27 23:52:33,764 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:52:33,848 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 83ms)
+ 2016-01-27 23:52:50,460 [P21508/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:52:50,500 [P21508/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 40ms)
+ 2016-01-27 23:52:50,835 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:52:55,024 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:52:55,062 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 37ms)
+ 2016-01-27 23:52:55,304 [P21508/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:02,130 [P21508/D2/T22] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:02,163 [P21508/D2/T22] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 33ms)
+ 2016-01-27 23:53:02,417 [P21508/D2/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:14,269 [P21508/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:14,300 [P21508/D2/T17] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 31ms)
+ 2016-01-27 23:53:14,511 [P21508/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:24,779 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:24,809 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 30ms)
+ 2016-01-27 23:53:25,028 [P21508/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:33,263 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:33,295 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 32ms)
+ 2016-01-27 23:53:33,492 [P21508/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:38,504 [P21508/D2/T18] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:38,534 [P21508/D2/T18] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 29ms)
+ 2016-01-27 23:53:38,738 [P21508/D2/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:45,493 [P21508/D2/T18] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:45,533 [P21508/D2/T18] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 38ms)
+ 2016-01-27 23:53:45,730 [P21508/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:49,242 [P21508/D2/T34] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:49,276 [P21508/D2/T34] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 34ms)
+ 2016-01-27 23:53:49,465 [P21508/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:53,070 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:53,101 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 31ms)
+ 2016-01-27 23:53:53,292 [P21508/D2/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:55,294 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:55,372 [P21508/D2/T13] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 76ms)
+ 2016-01-27 23:53:55,691 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:53:59,563 [P21508/D2/T33] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:53:59,597 [P21508/D2/T33] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 33ms)
+ 2016-01-27 23:53:59,784 [P21508/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:02,030 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:02,071 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 39ms)
+ 2016-01-27 23:54:02,411 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:10,555 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:10,595 [P21508/D2/T12] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 40ms)
+ 2016-01-27 23:54:10,876 [P21508/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:15,035 [P21508/D2/T14] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:15,082 [P21508/D2/T14] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 47ms)
+ 2016-01-27 23:54:15,288 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:18,359 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:18,395 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 35ms)
+ 2016-01-27 23:54:18,606 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:23,455 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:23,487 [P21508/D2/T29] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 31ms)
+ 2016-01-27 23:54:23,692 [P21508/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:54:26,277 [P21508/D2/T15] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:54:26,307 [P21508/D2/T15] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 29ms)
+ 2016-01-27 23:54:26,496 [P21508/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-01-27 23:55:55,732 [P21508/D2/T42] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-01-27 23:55:56,075 [P21508/D2/T42] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 343ms)

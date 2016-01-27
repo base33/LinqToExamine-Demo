@@ -272,7 +272,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Umbraco.Examine.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LINQToExamine.1.2\lib\Umbraco.Examine.Linq.dll</HintPath>
+      <HintPath>..\packages\LINQToExamine.1.3\lib\Umbraco.Examine.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="umbraco.MacroEngines, Version=1.0.5858.25609, Culture=neutral, processorArchitecture=MSIL">
