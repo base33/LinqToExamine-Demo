@@ -7,4 +7,4 @@ The credentials for the umbraco backoffice is:
 Username: admin
 Password: qwer1234
 
-The source code for LinqToExamine is available here: https://github.com/base33/LinqToExamine
+The source code for LinqToExamine is available here: https://github.com/base33/umbraco.examine.linq
