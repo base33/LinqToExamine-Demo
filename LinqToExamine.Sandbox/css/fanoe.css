@@ -1047,6 +1047,58 @@ pre {
 	background: black;
 }
 
+.main-search {
+    padding: 20px 0px;
+    text-align:right;
+}
+
+.main-search input[type='text'] {
+    width:50%;
+    display:inline;
+}
+
+.main-search input[type='submit'] {
+    display:inline;
+    margin-left:5px;
+}
+
+.search-result {
+    background: rgb(241, 241, 241);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.search-result:hover {
+    background: rgb(247, 247, 246);
+    box-shadow: 0px 0px 15px 0px rgba(0, 82, 198, 0.5);
+}
+
+.search-result > p {
+    display: block;
+}
+
+.patient-search {
+    padding: 30px 0px;
+}
+
+.patient-search .input-group, .patient-search > form > .col-md-4 > div {
+    float:left;
+    padding-right:10px;
+    margin-bottom: 10px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.lucene-query {
+    font-family: Consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border: 1px solid #DAD9D9;
+    background: #F1F1F1;
+    color: #010142;
+}
+
 @media (min-width: 768px) {
 
 .dark,
@@ -1090,6 +1142,8 @@ pre {
 .breadcrumb a {
 	font-size: 1.2rem;
 }
+
+
 
 }
 
@@ -1299,6 +1353,9 @@ nav li > ul {
 	margin: 0;
 }
 
+.main-search input[type='text'] {
+    width:70%;
+}
 }
 
 @media (max-width: 992px) and (max-width: 992px) {

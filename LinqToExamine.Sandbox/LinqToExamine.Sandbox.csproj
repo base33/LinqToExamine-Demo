@@ -272,7 +272,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Umbraco.Examine.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LINQToExamine.1.3\lib\Umbraco.Examine.Linq.dll</HintPath>
+      <HintPath>..\packages\LINQToExamine.1.4\lib\Umbraco.Examine.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="umbraco.MacroEngines, Version=1.0.5858.25609, Culture=neutral, processorArchitecture=MSIL">
@@ -305,6 +305,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fanoe.css" />
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -340,14 +341,17 @@
     <Content Include="Views\Partials\BottomNavigation.cshtml" />
     <Content Include="Views\Partials\MainNavigation.cshtml" />
     <Content Include="Views\Partials\Grid\Fanoe.cshtml" />
-    <Content Include="Views\PatientsLinqToExamine.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Partials\PatientList.cshtml" />
+    <Content Include="Views\Partials\Patients\PatientList.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Search.cshtml" />
+    <Content Include="Views\Partials\Search\SearchList.cshtml" />
+    <Content Include="Views\Partials\Search\SearchBar.cshtml" />
+    <Content Include="Views\Patients.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -389,15 +393,21 @@
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Partials\PatientSearch.cshtml" />
+    <Content Include="Views\Partials\Patients\PatientSearch.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\PatientsLinqController.cs" />
-    <Compile Include="Models\PatientListSearchModel.cs" />
+    <Compile Include="Controllers\PatientsController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Demo\CustomMapper.cs" />
+    <Compile Include="Demo\CustomSearcher.cs" />
+    <Compile Include="Models\ViewModels\PatientListViewModel.cs" />
     <Compile Include="Models\QueryModel\ContentQueryModel.cs" />
     <Compile Include="Models\QueryModel\PatientQueryModel.cs" />
+    <Compile Include="Models\ViewModels\SearchCriteriaViewModel.cs" />
+    <Compile Include="Models\ViewModels\SearchViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
