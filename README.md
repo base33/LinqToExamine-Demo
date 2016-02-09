@@ -1,4 +1,4 @@
-# LinqToExamine-Demo
+# Linq To Examine Demo
 This is an example Umbraco CMS that is utilising Linq To Examine to perform searches and gather content faster.
 
 You can download the repo and run the project in Visual Studio 2012+.
