@@ -1,0 +1,36 @@
+﻿@inherits WebViewPage<LinqToExamine.Sandbox.Models.PatientListSearchModel>
+
+
+<div class="col-md-12">
+    <div class="patient-search">
+        @using (Html.BeginUmbracoForm("Search", "Patients"))
+        {
+
+            <div class="input-group col-md-8">
+                <span class="input-group-addon" id="basic-addon1">Query:</span>
+                @Html.TextBoxFor(Model => Model.Query, new { placeholder = "Query", @class = "form-control" })
+            </div>
+
+            <div class="col-md-4">
+                <div class="input-group col-md-12 pull-right">
+                    <span class="input-group-addon" id="basic-addon1">DOB From:</span>
+                    @Html.TextBoxFor(Model => Model.DOBFrom, new { placeholder = "From", type = "date", @class = "form-control" })
+                </div>
+                <div class="input-group col-md-12 pull-right">
+                    <span class="input-group-addon" id="basic-addon1">DOB To:</span>
+                    @Html.TextBoxFor(Model => Model.DOBTo, new { placeholder = "To", type = "date", @class = "form-control" })
+                </div>
+                <div class="col-md-12 pull-right align-right">
+                    <span>UK Citizen</span>
+                    @Html.CheckBoxFor(Model => Model.UKCitizenOnly)
+                </div>
+                <div class="col-md-12 pull-right align-right">
+                    <input type="submit" value="Search" class="btn btn-success" />
+                </div>
+            </div>
+
+            
+            
+        }
+            </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@inherits UmbracoViewPage<LinqToExamine.Sandbox.Models.ViewModels.SearchViewModel>
+
+<div class="umb-grid">
+    <div class="row clearfix">
+        <div class="container">
+
+            <div class="col-md-12">
+                @Html.Partial("Search/SearchBar", Model.Criteria)
+            </div>
+
+            @foreach (var result in Model.Results)
+            {
+                <div class="col-md-6">
+                    <div class="search-result">
+                        <h3>@result.Name</h3>
+                        <p>Page Type: @result.NodeTypeAlias</p>
+                        <p>@result.CreatedDate.ToString("dd/MM/yyyy") <a class="pull-right" href="@Umbraco.NiceUrl(result.Id)">Go to page</a></p>
+                    </div>
+                </div>
+            }
+            
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,9 @@
+﻿@inherits UmbracoViewPage<LinqToExamine.Sandbox.Models.ViewModels.SearchCriteriaViewModel>
+
+<div class="main-search">
+    @using (Html.BeginUmbracoForm("PerformSearch", "Search"))
+    {
+        @Html.TextBoxFor(Model => Model.Query, new { placeholder = "Search Now!", @class = "form-control" })
+        <input type="submit" value="Search" class="btn btn-success" />
+    }
+</div>
